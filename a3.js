@@ -15,3 +15,8 @@ if (!response.ok || response.status !==200){
 catch(error){
     console.error("Error fetching data", error);
 }}
+
+
+//Display results in the table
+function displayData(results){
+    const tableBody = document.getElementById("tablebody");}
